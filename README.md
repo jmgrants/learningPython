@@ -45,3 +45,21 @@
 ## Multiple commands on same line
 * separate with ;
   - runs them sequentially, not piping I believe
+
+## Functions
+* accessing documentation on functions: help(functionName) ...OR ?functionName if using IPython
+  - optional arguments are surrounded by square brackets, and default value is given in description
+* list of functions covered in intro:
+  - max(), len(), sorted(), print(), etc.
+
+## Methods
+* specific functions that are used on specific data types (objects)
+* to call the method, use __dot notation__: combine variable name with method name using a dot
+  - e.g. for list "fam", to use the index("elementName") method, you write: fam.index("elementName")
+* _list_ methods examples
+  - listName.index()
+  - listName.count()
+* _str_ methods examples
+  - strName.capitalize()
+* objects with different types can have methods by the same name, e.g. listName.index("elementName") works on lists to bring up the index name, but strName.index("c") works on strings to bring up the character position in the string
+* some methods change the object they are called on (automatically), e.g. listName.append("new") will modify the list
