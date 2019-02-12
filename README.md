@@ -41,3 +41,7 @@
 * if you assign list x to a new variably y using '=', then any changes to y will also change x! 
   - this is because of the way python stores lists as a reference to the list, not the list itself
 * to _copy_ the list so that x and y are no longer interconnected, use: y = list(x) or y = x\[:]
+
+## Multiple commands on same line
+* separate with ;
+  - runs them sequentially, not piping I believe
