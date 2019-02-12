@@ -30,9 +30,10 @@
 * select multiple including beginning or end: a blank number in slice specifies beginning or end of list
 
 ## Modifying lists
-* modify an element by specifying its index then assigning new value using =
+* modify an element by specifying its index then assigning new value using '='
 * add a new list element using +
   - you do _not_ have to re-assign the modified list to a variable, this updates the existing variable automatically
+  - to add multiple elements, you can use a second list (square brackets), and the result will _still_ be a single list
 * delete element by position using del()
   - this also updates the existing variable automatically
   
