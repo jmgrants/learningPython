@@ -71,4 +71,8 @@
   - Scikit-learn: machine learning
 * to install packages:
   - use pip: package maintenance system
-  - Structure: pip3 install packageName
+  - Structure: pip3 install _packageName_
+* to load packages for use:
+  -Structure: import _packageName_ as _pn_ (the 'as' statement gives you a nickname to call the functions from that package)
+* calling package functions:
+  -Strucutre: np.array() where 'np' is the nickname you gave the package (numpy) and array is a function from the package (numpy)
