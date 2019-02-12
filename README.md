@@ -79,3 +79,12 @@
 * to import specific function from a package:
   - Structure: from _packageName_ import _functionName_
   - then you _don't_ have to call the function using packageName.functionName() notation, just the function name will do
+
+## NumPy & arrays
+* NumPy: numeric python
+* arrays: similar to vectors in R (array/array calculates element-wise)
+  - can only contain 1 type of data, so mixed types will be converted all to strings
+  - note that "+" will behave differently for lists (+ is like paste) vs arrays (+ is an operator, and each element will be added to corresponding element in 2nd array)
+  - subsetting works similarly to lists
+  - OR can use an array of booleans (i.e. logical subsetting)
+    - e.g. bmi[bmi>23]
