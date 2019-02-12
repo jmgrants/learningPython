@@ -63,3 +63,12 @@
   - strName.capitalize()
 * objects with different types can have methods by the same name, e.g. listName.index("elementName") works on lists to bring up the index name, but strName.index("c") works on strings to bring up the character position in the string
 * some methods change the object they are called on (automatically), e.g. listName.append("new") will modify the list
+
+## Packages
+* popular packages for data science:
+  - Numpy ('NUM-pie'): working with arrays
+  - Matplotlib: visualizations
+  - Scikit-learn: machine learning
+* to install packages:
+  - use pip: package maintenance system
+  - Structure: pip3 install packageName
