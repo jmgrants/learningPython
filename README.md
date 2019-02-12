@@ -89,8 +89,13 @@
   - OR can use an array of booleans (i.e. logical subsetting)
     - e.g. bmi[bmi>23]
 
-## 2D numpy arrays
+### 2D numpy arrays
 * to make a 2d array, create an array of lists: np.array(\[1, 2, 3], \[1, 2, 3])
 * subsetting: np_2d\[r,c]
   - recall that to get all rows or columns, you'd replace it by ':'
   - remember that indexes are 0-based!
+
+## NumPy statistics functions: examples
+* np.mean(), np.median(), np.std(), np.corrcoeff()
+* simulations: np.random.normal()
+* bind columns: np.column_stack()
